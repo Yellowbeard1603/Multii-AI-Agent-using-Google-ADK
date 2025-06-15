@@ -66,14 +66,18 @@ Running the Agent System
 Once setup is complete, you can run the system using the ADK CLI:
 
 ▶️ Run with ADK CLI
+
+```sh
     cd manager
     adk run agent
+```
     
 🌐 Run with ADK Developer UI (optional)
 
 Launch a browser-based interface to interact with and visualize the agent workflow:
-
+```sh
 adk web
+```
 
 This opens the ADK Dev UI in your browser.
 
