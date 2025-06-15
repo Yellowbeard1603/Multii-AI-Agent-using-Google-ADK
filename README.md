@@ -62,11 +62,30 @@ README.md               # Project documentation
     GOOGLE_GENAI_USE_VERTEXAI=0
     GOOGLE_API_KEY=your-google-api-key
 ```
+Running the Agent System
+Once setup is complete, you can run the system using the ADK CLI:
+
+▶️ Run with ADK CLI
+    cd manager
+    adk run agent
+    
+🌐 Run with ADK Developer UI (optional)
+
+Launch a browser-based interface to interact with and visualize the agent workflow:
+
+adk web
+
+This opens the ADK Dev UI in your browser.
+
+Select your agent and start a conversation (e.g., "Tell me a nerdy joke" or "What’s the latest in the stock market?").
+
 
 Usage
 Import and instantiate the root_agent from manager/agent.py in your application.
 Interact with the manager agent; it will delegate tasks to the appropriate sub-agent or tool.
 Extending
+
+
 To add a new agent:
 
 Create a new folder under manager/sub_agents/.
